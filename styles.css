@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto';
+    font-weight: 300;
+} 
+.container{
+    width: 100%;
+    height: 100%;
+}
+.background{
+    transition-duration: 3s;
+    width: 100%;
+}
+.imgbg{
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 40px;
+    animation: header 5s;
+    border-bottom: 5px;
+    border-color: #efcc31;
+}
+@keyframes header{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.text{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    transition-duration: 3s;
+    transition-property: opacity;
+}
+.maintext{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    transition-duration: 3s;   
+}
+#t1:hover{
+    color: #efcc31;
+}
+.product{ 
+    display: none;
+    flex-direction: column; 
+    background-color: aliceblue;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    transition-duration: 3s;
+    opacity: 0;
+    margin-top: 50px;
+}
+.listproduct{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px 50px;
+    width: 100%;
+}
+.items{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.items img{
+    margin-top: 10px;
+    width: 50%;
+    height: 55%;
+}
+.itext{
+    width: 100%;
+}
+.title{
+    font-size: 12px;
+    font-family:'Roboto';
+    font-weight: 400;
+    padding: 0 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.price{
+    width: 100%;
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: 600;
+    color: #000000;
+}
+.button{
+    width: 120px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    transition-duration: 3s;
+    transition-property: opacity;
+    opacity: 1;
+    
+}
+.button:hover{
+    color: #efcc31;
+    font-size: 17px;
+}
+.headerpd{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
